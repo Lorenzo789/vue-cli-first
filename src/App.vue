@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <MainTitle/>
+    <MainHero/>
   </div>
 </template>
 
 <script>
 import MainTitle from './components/MainTitle.vue'
+import MainHero from './components/MainHero.vue'
 
 export default {
   name: 'App',
   components: {
-    MainTitle
+    MainTitle,
+    MainHero,
   }
 }
 </script>
@@ -22,6 +25,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
